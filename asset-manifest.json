@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RGB_Generator/static/css/main.c280f629.css",
+    "main.js": "/RGB_Generator/static/js/main.1a59a0a7.js",
+    "static/js/453.adc34edb.chunk.js": "/RGB_Generator/static/js/453.adc34edb.chunk.js",
+    "index.html": "/RGB_Generator/index.html",
+    "main.c280f629.css.map": "/RGB_Generator/static/css/main.c280f629.css.map",
+    "main.1a59a0a7.js.map": "/RGB_Generator/static/js/main.1a59a0a7.js.map",
+    "453.adc34edb.chunk.js.map": "/RGB_Generator/static/js/453.adc34edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c280f629.css",
+    "static/js/main.1a59a0a7.js"
+  ]
+}
