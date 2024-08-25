@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pixelify+Sans:wght@400..700&family=Playwrite+IS:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+body {
+  background: linear-gradient(to right, #8a2d82, #8f94fb );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px auto;
+  max-width: 500px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0 , 0.4);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.titleContainer {
+  display: flex;
+  background-color: #8a2d82;
+  width: 480px;
+  height: 30px;
+  margin-top: 7px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.title {
+  color: #ffffff;
+  text-align: left;
+  margin: 3px 5px;
+}
+.windowIcons {
+  display: flex;
+  color: #ffffff;
+  margin-inline-start: auto;
+  margin-right: 5px;
+  margin-top: 4px;
+  gap: 5px;
+}
+.bodyContainer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #8a2d82;
+  width: 480px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-top: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.colorBox {
+  margin-bottom: 20px;
+  background-color: #000000;
+  border-radius: 4px;
+  margin: auto;
+  border: 2px solid black;
+}
+.sliders {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #ffffff;
+}
+.slider {
+  display: flex;
+  margin-bottom: 10px;
+  text-align: left;
+}
+label {
+  margin-right: 5px;
+}
+input[type="range"] {
+  width: 350px;
+  margin-right: 5px;
+  appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   background-color: #ffffff;
+   height: 10px;
+   margin-top: 7px;
+}
+span {
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.inputTypeValue {
+  padding: 10px 20px;
+  background-color: #2454ad;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  width: 190px;
+  margin-top: -10px;
+}
+.copyButton {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #2454ad;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+.copyButton:hover {
+  background-color: #4b87f7;
+  border: 2px solid #4b87f7;
+  transition: 0.3s;
+}
